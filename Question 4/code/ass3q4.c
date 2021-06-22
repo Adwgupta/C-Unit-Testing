@@ -22,7 +22,7 @@ void runAllTests() {
     //Create a new suite
     CU_pSuite suite = CU_add_suite("Testing The Average Function", 0, 0);
     //Add a new test to the suite
-    CU_add_test(suite, "Question 2", testingFunction);
+    CU_add_test(suite, "Question 4", testingFunction);
     //Set the mode for the amount of information provided
     CU_basic_set_mode(CU_BRM_VERBOSE);
     //Run all tests in the test registry
